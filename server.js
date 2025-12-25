@@ -121,7 +121,7 @@ async function fetchNews(countryName) {
   const url = "https://newsapi.org/v2/everything";
   const params = {
     qInTitle: countryName,
-    language: "en",
+    language: "ru",
     pageSize: 5,
     sortBy: "publishedAt",
     apiKey: key
